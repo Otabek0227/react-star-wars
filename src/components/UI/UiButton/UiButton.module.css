@@ -1,0 +1,7 @@
+.myButton {
+    border-radius: 3px !important;
+    transition: all .4s;
+}
+.myButton:disabled {
+    cursor: default !important;
+}

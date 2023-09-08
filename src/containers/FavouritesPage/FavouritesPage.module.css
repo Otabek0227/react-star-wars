@@ -1,0 +1,7 @@
+.header__text{
+    color: var(--color-yellow);
+    margin-bottom: var(--spacing-medium);
+}
+.comment{
+    color: var(--color-white);
+}

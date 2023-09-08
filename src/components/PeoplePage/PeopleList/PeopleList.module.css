@@ -1,0 +1,23 @@
+.list__card {
+    width: 200px;
+    margin: 12px auto;
+    background-color: var(--color-white);
+    border-radius: var(--border-radius-small);
+}
+
+.list__card a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--color-black);
+}
+
+.list__card p {
+    padding: 10px 0;
+}
+
+.list__card img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;
+}

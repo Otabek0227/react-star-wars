@@ -1,0 +1,20 @@
+.wrapper {
+    margin-top: 40px;
+}
+.container {
+    border-left: var(--spacing-ultrasmall) solid var(--color-violet);
+    padding: var(--spacing-medium);
+    display: flex;
+    flex-wrap: wrap;
+}
+.person__name {
+    font-size: var(--font-size-subheader);
+    background-color: var(--color-violet);
+    border-radius: var(--border-radius-small) var(--border-radius-small) var(--border-radius-small) 0;
+    padding: 10px 15px;
+}
+.relative{
+    position: relative;
+    min-width: 300px;
+    min-height: 300px;
+}

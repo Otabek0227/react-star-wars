@@ -1,0 +1,24 @@
+.person__container {
+    background-color: rgba(0, 0, 0, .65);
+    width: 300px;
+    padding: var(--spacing-medium);
+    margin-left: var(--spacing-large);
+    color: var(--color-white);
+    border-radius: var(--border-radius-medium);
+}
+
+@media screen and (max-width: 800px) {
+    .person__container {
+        width: 100%;
+        margin: var(--spacing-large) 0;
+    }
+}
+
+.person__container li{
+    padding: var(--spacing-ultrasmall) 0;
+}
+
+.person__container span {
+    text-decoration: underline;
+    text-shadow: var(--text-shadow-blue);
+}

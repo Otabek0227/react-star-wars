@@ -1,0 +1,26 @@
+.notFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notFound img {
+    width: 300px;
+    /* margin: 0 auto; */
+}
+
+.notFound h3 {
+    font-size: 40px;
+    color: var(--color-white);
+    text-shadow: var(--text-shadow-blue);
+    text-align: center;
+    margin: auto;
+    /* height: 100%; */
+}
+
+.notFound h4 {
+    color: var(--color-white);
+    text-shadow: var(--text-shadow-blue);
+    padding: 20px 0;
+}

@@ -1,0 +1,10 @@
+.link {
+    text-decoration: none;
+}
+.link img {
+    width: 30px;
+}
+.link span {
+    color: var(--color-yellow);
+    font-weight: var(--font-bold);
+}

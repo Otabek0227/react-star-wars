@@ -1,0 +1,17 @@
+.text {
+    margin-top: 100px;
+    text-align: center;
+    font-size: var(--font-size-header);
+    color: var(--color-yellow);
+    text-shadow: 0 0 2px var(--color-white);
+    -webkit-text-stroke-color: var(--color-yellow);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-fill-color: transparent;
+}
+
+.errorVideo {
+    display: block;
+    margin: var(--spacing-large) auto;
+    border-radius: var(--border-radius-small);
+    box-shadow: var(--box-shadow-white);
+}

@@ -1,0 +1,4 @@
+.navigationBtn{
+    cursor: default !important;
+    margin: var(--spacing-small);
+}

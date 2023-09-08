@@ -1,0 +1,18 @@
+.personImg__container {
+    width: 250px;
+    position: relative;
+}
+.favour{
+    position: absolute;
+    width: 35px;
+    top: -15px;
+    right: -15px;
+    filter: drop-shadow(0 0 2px #000);
+    cursor: pointer;
+}
+
+.person__img {
+    width: 100%;
+    border-radius: var(--border-radius-medium);
+    margin: 0 auto;
+}

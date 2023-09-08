@@ -12,7 +12,7 @@ export default function PeopleList({ people }) {
                 {people.map(({ id, name, img }) => (
                     <div key={id} className='col-12 col-sm-6 col-md-4 col-lg-3 col-xl'>
                         <div className={styles.list__card}>
-                            <Link to={`star-wars/people/${id}`}>
+                            <Link to={`react-star-wars/people/${id}`}>
                                 <img src={img} alt={name} />
                                 <p>{name}</p>
                             </Link>

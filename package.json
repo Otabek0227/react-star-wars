@@ -2,7 +2,7 @@
   "name": "react-star-wars",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://otabek0227.github.io/reac-star-wars/",
+  "homepage": "https://otabek0227.github.io/react-star-wars/",
   "type": "module",
   "scripts": {
     "dev": "vite",

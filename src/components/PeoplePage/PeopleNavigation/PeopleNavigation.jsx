@@ -11,10 +11,10 @@ export default function PeopleNavigation({ getResponse, prevPage, nextPage, coun
 
   return (
     <div className='d-flex w-100 justify-content-center'>
-      <Link to={`/people/?page=${prevPage && counterPage - 1}`} className={styles.navigationBtn}>
+      <Link to={`https://otabek0227.github.io/react-star-wars/people/?page=${prevPage && counterPage - 1}`} className={styles.navigationBtn}>
         <UiButton onClick={onPrevPage} disabled={!prevPage}>Previous</UiButton>
       </Link>
-      <Link to={`/people/?page=${nextPage && counterPage + 1}`} className={styles.navigationBtn}>
+      <Link to={`https://otabek0227.github.io/react-star-wars/people/?page=${nextPage && counterPage + 1}`} className={styles.navigationBtn}>
         <UiButton onClick={onNextpage} disabled={!nextPage}>Next Page</UiButton>
       </Link>
     </div>

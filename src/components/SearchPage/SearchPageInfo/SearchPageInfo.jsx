@@ -12,7 +12,7 @@ const SearchPageInfo = ({ people }) => (
                     <Row>
                         {people.map(({ id, name, img }) => (
                             <Col xs={12} sm={6} md={4} key={id} className={styles.peopleList__item}>
-                                <Link to={`/people/${id}`}>
+                                <Link to={`https://otabek0227.github.io/react-star-wars/people/${id}`}>
                                     <img className={styles.person__photo} src={img} alt={name} />
                                     <p className={styles.person__name}>{name}</p>
                                 </Link>

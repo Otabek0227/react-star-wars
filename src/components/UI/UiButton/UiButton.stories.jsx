@@ -8,4 +8,4 @@ export default {
 const Template = (args) => <UiButton {...args} />;
 
 export const Primary = Template.bind({});
-Primary.args = { onClick: () => console.log('Button Clicked'), disabled: false, children: 'Hello' };
+Primary.args = { onClick: () => console.log('Button Clicked'), disabled: false, children: 'Hello from teding' };

@@ -39,7 +39,7 @@ export default function Header() {
       <div className={styles.header__content}>
         <img className={styles.logo} src={logo} alt={isTheme.theme} />
         <ul className={showNav ? 'tr-0' : ''}>
-          <li><NavLink onClick={hideNavbar} to='/'>Home</NavLink></li>
+          <li><NavLink onClick={hideNavbar} to='/react-star-wars/'>Home</NavLink></li>
           <li><NavLink onClick={hideNavbar} to='people/?page=1'>People</NavLink></li>
           <li><NavLink onClick={hideNavbar} to='search'>Search</NavLink></li>
           <li><NavLink onClick={hideNavbar} to='not-found'>Not Found</NavLink></li>

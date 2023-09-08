@@ -45,7 +45,7 @@ const routesConfig = [
 
 const routes = createBrowserRouter(
     createRoutesFromElements(
-        <Route path="/" element={<RootLayout />}>
+        <Route path="/react-star-wars" element={<RootLayout />}>
             <Route index exact element={<HomePage />} />
             {routesConfig.map((route, index) => (
                 <Route path={route.path} exact={false} element={route.element} key={index} />

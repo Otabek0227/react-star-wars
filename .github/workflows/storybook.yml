@@ -1,7 +1,10 @@
 # // .github/workflows/storybook.yml
 
 on: 
-  push
+  push:
+    branches:
+     - main
+    paths: ["stories/**", "src/components/**"]
 
 name: Publish stories if changed
 
@@ -12,10 +15,14 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
+    - name: Build Storybook
+      run: |
+        npm install
+        npm run build-storybook
+    
     - name: Build and deploy to storybook-static branch
-      uses: otabek2702/storybook
-      env:
+      uses: JamesIves/github-pages-deploy-action@3.4.8
+      with:
         ACCESS_TOKEN: ${{ secrets.BDOUGIE_TOKEN }}
         BRANCH: storybook-static
         FOLDER: ./dist/storybook
-        BUILD_SCRIPT: npm install && npm run build-storybook

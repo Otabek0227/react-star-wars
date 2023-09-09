@@ -36,9 +36,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
-    environment:
-      name: github-pages
-      url: ${{ steps.build-publish.outputs.page_url }}
+
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v2
@@ -53,7 +51,7 @@ jobs:
           publish_dir: ./dist
 
       - id: build-publish
-        uses: otabek2702/gh-pages
+        uses: otabek2702/github-actions-storybook-to-github-pages@v1.0.0
         with:
           path: dist/storybook
           build_command: npm run build-storybook

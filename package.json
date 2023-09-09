@@ -11,7 +11,7 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build -o ./dist/storybook",
+    "build-storybook": "storybook build -s public",
     "build-gh-pages": "gh-pages -d dist"
   },
   "dependencies": {

@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+    const link = document.createElement("a");
+    link.href = "https://star-wars-otabek.netlify.app/"; // Boshqa sahifa manzili
+
+    if (window.innerWidth <= 576) {
+      link.click(); // Havolani bosing va o'ting
+    }
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- solve problem with 404 not found page -->
